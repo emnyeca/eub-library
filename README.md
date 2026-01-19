@@ -89,6 +89,38 @@ Note on responsibility separation:
 - Symbols describe logical or mechanical intent.
 - Footprints define physical geometry and manufacturing constraints.
 
+### Graphic footprints (silk/mask/copper art)
+
+Naming format:
+
+`GFX_<Name>[_<Layer or Variant>]_EUB`
+
+Examples:
+- `GFX_EUB_LOGO_TOP_SILK_EUB`
+- `GFX_EUB_LOGO_BOTTOM_MASK_EUB`
+- `GFX_EMIUET_NAMEPLATE_TOP_EUB`
+- `GFX_WARNING_TEXT_BATT_EUB`
+- `GFX_DECOR_PATTERN_A_EUB`
+
+Notes:
+- The `GFX_` prefix is required.
+- Prefer intent/meaning over exact dimensions (size should be defined by the footprint geometry itself).
+
+### Use of Copper Layers for Graphic Design
+
+In the EUB series, PCB copper layers (F.Cu / B.Cu) may be intentionally used
+for visual and design purposes, especially for front-panel style PCBs
+finished with ENIG.
+
+These copper graphics:
+- Do not represent electrical connections
+- Must not be assigned to any net
+- Are used purely as visual material (gold finish, contrast, texture)
+
+Such usage is limited to dedicated graphic footprints located in
+`EUB_Graphic.pretty`, and their intent must be clearly indicated in the
+footprint name (e.g. `*_CU_EUB`).
+
 
 ## License
 MIT

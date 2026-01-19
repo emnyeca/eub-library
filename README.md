@@ -48,6 +48,47 @@ Examples:
 All electrical behavior is defined in the corresponding footprints
 (e.g. NPTH, Edge.Cuts, keepouts).
 
+## Footprint Naming Convention
+
+Footprints in this library are divided into two categories:
+- **Electrical footprints** (for actual electronic components)
+- **Mechanical-only footprints** (cutouts, mounting holes, windows, slots, etc.)
+
+### Electrical footprints
+
+Naming format:
+
+`<PartName>[_<Package or Variant>]_EUB`
+
+- **PartName:** Uses the official part number when applicable.
+- **Package / Variant:** Added only when needed for clarity (to avoid collisions or to capture a meaningful package/variant distinction).
+- **`_EUB` suffix:** Indicates the footprint is owned/maintained by the EUB library (to avoid accidental substitution with similarly-named upstream footprints).
+
+Examples:
+- `TPS61023DRLR_SOT563_EUB`
+- `BQ24074_QFN16_EUB`
+- `MST23D18G2_DP3T_SMD_EUB`
+
+### Mechanical footprints
+
+Naming format:
+
+`MECH_<Purpose>[_<Size or Variant>]_EUB`
+
+- These footprints have no electrical meaning.
+- They are not intended to appear in BOMs.
+- They usually contain NPTH, slots, Edge.Cuts, or graphical references only.
+
+Examples:
+- `MECH_USB-C_CUTOUT_EUB`
+- `MECH_OLED_0.96_WINDOW_EUB`
+- `MECH_MOUNT_HOLE_M2_NPTH_EUB`
+- `MECH_SLIDEPOT_SLOT_20MM_EUB`
+
+Note on responsibility separation:
+- Symbols describe logical or mechanical intent.
+- Footprints define physical geometry and manufacturing constraints.
+
 
 ## License
 MIT

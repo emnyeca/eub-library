@@ -1,0 +1,20 @@
+﻿# KiCad
+_autosave-*
+*.bak
+*.bck
+*~
+*.tmp
+*.lck
+*.lock
+fp-info-cache
+*.kicad_prl
+
+# OS
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Editors
+.vscode/
+*.swp

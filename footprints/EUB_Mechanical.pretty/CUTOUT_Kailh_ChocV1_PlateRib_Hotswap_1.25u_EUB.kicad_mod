@@ -1,0 +1,337 @@
+(footprint "CUTOUT_Kailh_ChocV1_PlateRib_Hotswap_1.25u_EUB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Plate rib cutout footprint for Kailh Choc V1 low-profile keyswitch, hotswap, 1.25u")
+	(tags "cutout mechanical plate rib Kailh Choc V1 low-profile hotswap 1.25u EUB")
+	(property "Reference" "MH"
+		(at 0.2 10.2 180)
+		(layer "F.Fab")
+		(uuid "4d75ed57-ab1a-4fc8-be31-3ab5e3fe1dd3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CHOC_CUTOUT "
+		(at 0.4 -10.2 180)
+		(layer "F.Fab")
+		(uuid "ab3f6542-38e0-4b9d-a6e6-09d5f814d6a1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.kailhswitch.com/Content/upload/pdf/201915927/CPG135001D02_-_Brown_Tactile_Choc-(1).pdf?rnd=374"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "45e9b1ef-b1e9-4d30-aeaa-78f9fc4b0afd")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Plate rib cutout for Kailh Choc low-profile keyswitch (hotswap, no solder) "
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f9b7598-f592-4e10-a92e-f91cf0790d4e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -6.9 6.6)
+		(end -6.9 -6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ee79a1f4-ed8c-4013-944e-178af6115c02")
+	)
+	(fp_line
+		(start -6.6 -6.9)
+		(end 6.6 -6.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "e9842473-b8ca-4d89-a1c4-7800de7feca8")
+	)
+	(fp_line
+		(start 6.6 6.9)
+		(end -6.6 6.9)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "380d91e8-c688-41a2-a57b-40777afcdb35")
+	)
+	(fp_line
+		(start 6.9 -6.6)
+		(end 6.9 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6a513fd0-ee72-4d1a-a66e-0c5271f251ea")
+	)
+	(fp_rect
+		(start -9 8.5)
+		(end 9 -8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "d500bdcc-0714-4e52-bc3b-129e0df5fc05")
+	)
+	(fp_arc
+		(start -6.9 -6.6)
+		(mid -6.812132 -6.812132)
+		(end -6.6 -6.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "54c56db3-66a5-4802-a50b-ee65d378aa27")
+	)
+	(fp_arc
+		(start -6.6 6.9)
+		(mid -6.812132 6.812132)
+		(end -6.9 6.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "ff4394cb-57c9-4e21-92c8-b633fe14609a")
+	)
+	(fp_arc
+		(start 6.6 -6.9)
+		(mid 6.812132 -6.812132)
+		(end 6.9 -6.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "b30bd126-fc44-465c-b432-97dc123c75ad")
+	)
+	(fp_arc
+		(start 6.9 6.6)
+		(mid 6.812132 6.812132)
+		(end 6.6 6.9)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "67031aac-68f1-4ed8-837b-52464827f90a")
+	)
+	(fp_line
+		(start -13.875 -8.5)
+		(end -13.875 -8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "96ae0fe0-20e5-4740-bf8f-0493681d3a2e")
+	)
+	(fp_line
+		(start -13.75 8.5)
+		(end -13.75 8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "17153183-d0b3-4604-adbd-f8ba345b5d60")
+	)
+	(fp_line
+		(start -9.125 -8.5)
+		(end -13.875 -8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e7aa2ab7-1804-4e41-8893-a6002e1cabd7")
+	)
+	(fp_line
+		(start -9 8.5)
+		(end -13.75 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "178e4ad7-7ed0-4c4c-8b98-3f235578a7f5")
+	)
+	(fp_line
+		(start 9 8.5)
+		(end 13.75 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "19c9ffac-d5a2-42d3-9d9b-173b1ac19767")
+	)
+	(fp_line
+		(start 9.125 -8.5)
+		(end 13.875 -8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "db90d5b8-ae57-40f3-9ffe-5d669a4e5631")
+	)
+	(fp_line
+		(start 13.75 8.5)
+		(end 13.75 8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "75869077-99a1-46b8-9bf6-c95c92c98f14")
+	)
+	(fp_line
+		(start 13.875 -8.5)
+		(end 13.875 -8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Cmts.User")
+		(uuid "e99758dc-012b-419b-bc83-97720620015a")
+	)
+	(fp_rect
+		(start 9 -8.5)
+		(end -9 8.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Cmts.User")
+		(uuid "8cc81125-13a9-4aa3-ac1d-44c3c7978360")
+	)
+	(fp_line
+		(start -7.6 6.6)
+		(end -7.6 -6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "b3c77616-b053-47a6-ae14-37c55536a52c")
+	)
+	(fp_line
+		(start -6.6 -7.6)
+		(end 6.6 -7.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "142ff74c-b181-404c-b75b-d85fbc60d015")
+	)
+	(fp_line
+		(start 6.6 7.6)
+		(end -6.6 7.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a377f8c3-08d8-42a4-9747-cb0215331e85")
+	)
+	(fp_line
+		(start 7.6 -6.6)
+		(end 7.6 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "474c7f98-7326-4fd8-9992-26b1c6b6ff3e")
+	)
+	(fp_arc
+		(start -7.6 -6.6)
+		(mid -7.307107 -7.307107)
+		(end -6.6 -7.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "a3642377-0da4-4ae4-ae3b-efcd5c462384")
+	)
+	(fp_arc
+		(start -6.6 7.6)
+		(mid -7.307107 7.307107)
+		(end -7.6 6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "d58242fb-be29-45b2-bd92-663c5886813f")
+	)
+	(fp_arc
+		(start 6.6 -7.6)
+		(mid 7.307107 -7.307107)
+		(end 7.6 -6.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "197ab1ea-36c8-4a5a-bb6f-b5087ea311b0")
+	)
+	(fp_arc
+		(start 7.6 6.6)
+		(mid 7.307107 7.307107)
+		(end 6.6 7.6)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "56bca152-c403-424d-8847-3c7c25a3b3b9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_v1.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)

@@ -1,0 +1,284 @@
+(footprint "AUDIO_JACK_3.5MM_TRS_RA_SMD_HandSolder_EUB"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "3.5mm TRS audio jack footprint, right-angle SMD, hand-solder optimized, manufacturer unknown")
+	(tags "audio jack 3.5mm TRS stereo SMD right-angle RA hand-solder EUB")
+	(property "Reference" "J"
+		(at 0 -6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "32a33af1-8dcb-42a1-94be-0f66cb9e1241")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Jack_3.5mm_TRS "
+		(at 0 6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "725cd9a3-a52d-4392-bc42-cc26c87c74d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "586484c7-43b7-4b95-8328-68f488887881")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "3.5mm stereo audio jack (TRS), SMD, right-angle, manufacturer unknown "
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9ba99856-b138-4283-b316-6573c67831d8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.5 -3)
+		(end -2.5 -2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "be2f0e3c-a49a-4ce0-8159-751b681ebd92")
+	)
+	(fp_line
+		(start -2.5 -2.6)
+		(end -3 -2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "35b3c856-fe50-4d42-815e-f3289d9ed6a2")
+	)
+	(fp_line
+		(start -2.5 2.6)
+		(end -3 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "5bac09ce-9e1f-43c5-9b90-3cbf6e33655e")
+	)
+	(fp_line
+		(start -2.5 3)
+		(end -2.5 2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "f1a37615-b19a-4bd5-81e4-5705e8b78cbf")
+	)
+	(fp_line
+		(start -2 -3)
+		(end -2.5 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "c7189fab-1e70-4a18-befc-f6ce55ddcae2")
+	)
+	(fp_line
+		(start -2 3)
+		(end -2.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "03a501a9-d3ca-437f-a73e-e48728db1371")
+	)
+	(fp_line
+		(start 0.5 -3)
+		(end 1.5 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "6f0f7068-8c68-4caa-9c16-dea466d8af2f")
+	)
+	(fp_line
+		(start 0.5 3)
+		(end 1.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "fd7e39aa-00d8-4cb6-ad37-f7c0e7a356de")
+	)
+	(fp_line
+		(start 4 -3)
+		(end 4.5 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "466e43cb-0782-4ecb-91c4-eb7ad1b0b420")
+	)
+	(fp_line
+		(start 4 3)
+		(end 4.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d9a0a839-3007-434b-9c7f-4c87984b35a3")
+	)
+	(fp_line
+		(start 8 -3)
+		(end 9 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "d3fdc00a-3ba6-41fa-b508-79fe09c48cf2")
+	)
+	(fp_line
+		(start 8 3)
+		(end 9 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "613f66a9-eb6a-4d5c-9055-788f0de9dd8d")
+	)
+	(fp_line
+		(start 9 -2)
+		(end 9 -3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "2e30a3d8-20fc-4c88-b472-ceb6f6334944")
+	)
+	(fp_line
+		(start 9 2)
+		(end 9 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "500ec41a-440b-442b-8a31-4a4e4bc97734")
+	)
+	(fp_rect
+		(start -5 -2.6)
+		(end -2.5 2.6)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "910b7e40-87b3-4aff-a11d-3cf3d84ff497")
+	)
+	(fp_rect
+		(start -2.5 -3)
+		(end 9 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "967b533c-b87c-4b38-b822-319bb7b912a3")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "0469c2b8-4c94-48cd-b92c-1bf06acf4f7a")
+	)
+	(pad "" np_thru_hole circle
+		(at 6 0)
+		(size 1.5 1.5)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b127a791-5e91-435f-bbdf-109cd915a181")
+	)
+	(pad "R" smd rect
+		(at 2.6 -3.4)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "facdc59f-01b2-4514-8f5e-cea128440bda")
+	)
+	(pad "R" smd rect
+		(at 2.6 3.5)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "34d93c44-9cc4-4054-9f13-81f0727c0e98")
+	)
+	(pad "S" smd rect
+		(at -0.75 -3.4)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "398afe62-497f-4404-8200-665081654d02")
+	)
+	(pad "S" smd rect
+		(at -0.75 3.5)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "88ed73bb-234c-4e87-991a-ced06289a4f5")
+	)
+	(pad "T" smd rect
+		(at 6 -3.4)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "5523c7f9-23e5-4be0-a99b-623e1637661f")
+	)
+	(pad "T" smd rect
+		(at 6 3.5)
+		(size 1.5 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ba31a151-01f5-4d79-bd4f-5ec5f1417ec5")
+	)
+	(embedded_fonts no)
+	(model "${KICAD9_3DMODEL_DIR}/Connector_Audio.3dshapes/Jack_3.5mm_KoreanHropartsElec_PJ-320D-4A_Horizontal.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

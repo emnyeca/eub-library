@@ -69,6 +69,14 @@ Examples:
 - `BQ24074_QFN16_EUB`
 - `MST23D18G2_DP3T_SMD_EUB`
 
+#### `_NOSILK` variants
+
+Some footprints include `_NOSILK` variants. These variants are physically identical
+to their standard counterparts, except for the absence of silkscreen graphics.
+
+This is intentionally used to reduce layout management overhead for front-panel
+style PCBs, where component silkscreen is undesired.
+
 ### Mechanical footprints
 
 Naming format:

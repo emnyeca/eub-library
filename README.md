@@ -26,6 +26,28 @@ Examples:
 - `ESP32-S3-MINI-1_WROOMless_EUB`
 - `SSD1306_Module_EUB`
 
+## Mechanical / Cutout Symbols
+
+This library also includes mechanical-only symbols used for PCB-based plates,
+mounting holes, cutouts, and alignment references.
+
+These symbols:
+- Do not represent electrical components
+- Are not intended to appear in BOMs
+- Exist to document mechanical intent at the schematic level
+
+Naming format:
+
+`MECH_<Purpose>[_<Variant>][_EUB]`
+
+Examples:
+- `MECH_MOUNT_HOLE_M2_EUB`
+- `MECH_USB-C_CUTOUT_EUB`
+- `MECH_OLED_WINDOW_0.96_EUB`
+
+All electrical behavior is defined in the corresponding footprints
+(e.g. NPTH, Edge.Cuts, keepouts).
+
 
 ## License
 MIT

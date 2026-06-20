@@ -5,9 +5,13 @@
 - footprints
 - 3dmodels
 - docs
+- templates
 
 ## Usage
 Register as KiCad Global Library
+
+See `docs/kicad_global_library_setup.md` for practical setup steps.
+See `docs/naming_conventions.md` for the expanded naming policy.
 
 ## Symbol Naming Convention
 

@@ -12,6 +12,7 @@ Register as KiCad Global Library
 
 See `docs/kicad_global_library_setup.md` for practical setup steps.
 See `docs/naming_conventions.md` for the expanded naming policy.
+See `docs/kicad_version_policy.md` before editing shared KiCad library files.
 
 ## Symbol Naming Convention
 

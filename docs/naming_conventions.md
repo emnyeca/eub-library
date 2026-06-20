@@ -117,3 +117,18 @@ same but silkscreen is intentionally removed.
 Use this for front-panel PCBs or other layouts where component silkscreen would
 create visual clutter. Keep the rest of the name compatible with the normal
 electrical or mechanical footprint rule.
+
+## Legacy names
+
+Older symbols and footprints may temporarily use names that do not fully match
+the current naming convention.
+
+New parts must follow the current naming convention. Existing names should not
+be changed casually because KiCad projects may reference those exact symbol or
+footprint names.
+
+Rename existing parts only as a standalone cleanup task, and leave a migration
+note that explains the old name, the new name, and the affected projects when
+known.
+
+This policy update does not rename existing symbols or footprints.
